@@ -24,6 +24,7 @@ class Main {
     String apellidos="Lopez Escañuela";
     String nombreCompleto=nombre +" "+apellidos;
     System.out.println(nombreCompleto);
+    System.out.println("#########Operador punto #############");
     System.out.println("Numero de elementos del arreglo num2: "+num2.length);
     System.out.println("Elementos de apellidos: "+ apellidos.length());
     System.out.println(nombreCompleto.toUpperCase());
