@@ -1,0 +1,36 @@
+class Main {
+  public static void main(String[] args) {
+    
+    Coche coche1 = new Coche();
+    coche1.anio = 2020;
+    coche1.automatico = true;
+    coche1.color = "blanco";
+    coche1.marca = "Nissan";
+    coche1.numPuertas = 5;
+    coche1.potencia = 150;
+    coche1.encender();
+    coche1.avanzar(true);
+    coche1.frenar(true);
+    coche1.apagar();
+    coche1.abrirPuertas(6);
+    System.out.println("###########################################################################");
+    Coche coche2 = new Coche("Mazda",2021,"negro",3,false, 200);
+    coche2.encender();
+    coche2.avanzar(false);
+    coche2.frenar(false);
+    coche2.apagar();
+    coche2.abrirPuertas(5);
+    System.out.println(coche1);
+    System.out.println(coche2);
+    System.out.println("###########################################################################");
+    Perro perro1 = new Perro("Rex",(float)5.8,2,6,"Chihuahua",false);
+    Perro perro2 = new Perro("Firulais",6.4f,6,10,"Puddle",true);
+    System.out.println(perro1);
+    System.out.println(perro2);
+    System.out.println("###########################################################################");
+    Alumno alumno1 = new Alumno("Octavio",19,(float)3.2,(float)5.7,true,false,false);
+    Alumno alumno2 = new Alumno("Jessica",20,(float)9.5,(float)9.1,false,true,true);
+    System.out.println(alumno1);
+    System.out.println(alumno2);
+  }
+}
